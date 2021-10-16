@@ -13,7 +13,7 @@ public class Calculator {
         operand1 = in.nextInt();
         System.out.println("Введите второй операнд");
         operand2 = in.nextInt();
-        System.out.println("Введите тип математической операции");
+        System.out.println("Введите тип арифметической операции");
         sign = in.next();
 
         switch (sign) {
@@ -29,14 +29,12 @@ public class Calculator {
             case "/":
                 if (operand2 == 0) {
                     System.out.println("Нельзя делить на 0");
-                } else if (operand2 > operand1) {
-                    System.out.println("Второй операнд должен быть меньше первого");
                 } else {
                     System.out.println((operand1 / operand2) + " | остаток от деления = " + (operand1 % operand2));
                 }
                 break;
             default:
-                System.out.println("Неизвестная математическая операция");
+                System.out.println("Неизвестная арифметическая операция");
         }
     }
 }
