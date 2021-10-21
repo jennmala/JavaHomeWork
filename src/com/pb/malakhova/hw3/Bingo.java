@@ -1,6 +1,5 @@
 package com.pb.malakhova.hw3;
 
-import java.sql.SQLOutput;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -30,10 +29,8 @@ public class Bingo {
                 continue;
             }
 
-            if (enteredNum == x) {
-                System.out.println("Поздравляем! Вы угадали число с " + counter + " попытки!");
+            System.out.println("Поздравляем! Вы угадали число с " + counter + " попытки!");
                 break;
-            }
         }
         System.out.println("Игра окончена.");
     }
