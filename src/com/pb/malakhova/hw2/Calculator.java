@@ -30,7 +30,7 @@ public class Calculator {
                 if (operand2 == 0) {
                     System.out.println("Нельзя делить на 0");
                 } else {
-                    System.out.println((operand1 / operand2) + " | остаток от деления = " + (operand1 % operand2));
+                    System.out.println(operand1 / (double)operand2);
                 }
                 break;
             default:
