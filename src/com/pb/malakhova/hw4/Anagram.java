@@ -44,4 +44,6 @@ public class Anagram {
         }
     }
 
-
+// Arrays.sort(charRes1);
+// Arrays.sort(charRes2);
+// Arrays.equals(charRes1, charRes2);
